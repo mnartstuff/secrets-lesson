@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-mongoose.connect("mongodb+srv://agArt:30452ndAveS@udemycluster.oihtb.mongodb.net/secrets?retryWrites=true&w=majority", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://<jmeno>:<heslo>@udemycluster.oihtb.mongodb.net/secrets?retryWrites=true&w=majority", {useNewUrlParser: true});
 
 
 app.get("/", (req, res) => {
